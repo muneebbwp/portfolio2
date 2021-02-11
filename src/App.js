@@ -1,10 +1,11 @@
-import React, { Component }  from 'react';
-import "bootstrap/dist/css/bootstrap.min.css"
+import React from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar.js";
 
 function App() {
   return (
    
-   <h2>Portfolio Project</h2>
+   <Navbar />
   );
 }
 
